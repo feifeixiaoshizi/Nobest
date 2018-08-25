@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+   >
+
+<LinearLayout
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="40dp">
+    <TextView
+        android:gravity="center"
+        android:id="@+id/create"
+        android:text="create"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/from"
+        android:text="from"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/just"
+        android:text="just"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/never"
+        android:text="never"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+    <TextView
+        android:gravity="center"
+        android:id="@+id/empty"
+        android:text="empty"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:gravity="center"
+        android:id="@+id/error"
+        android:text="error"
+        android:layout_width="60dp"
+        android:layout_height="40dp" />
+
+
+</LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/timer"
+            android:text="timer"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/interval"
+            android:text="interval"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/range"
+            android:text="range"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/defer"
+            android:text="defer"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+<!--过滤-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/filter"
+            android:text="filter"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/ofType"
+            android:text="ofType"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/take"
+            android:text="take"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/testTakeLast"
+            android:text="testTakeLast"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+    <!--合并-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/concat"
+            android:text="concat"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/merge"
+            android:text="merge"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/zip"
+            android:text="zip"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/combineLatest"
+            android:text="combineLatest"
+            android:layout_width="100dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+
+
+    <!--判断-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/takeUntil"
+            android:text="takeUntil"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+
+
+    <!--变换-->
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <TextView
+            android:gravity="center"
+            android:id="@+id/flatMap"
+            android:text="flatMap"
+            android:layout_width="60dp"
+            android:layout_height="40dp" />
+
+    </LinearLayout>
+</LinearLayout>
